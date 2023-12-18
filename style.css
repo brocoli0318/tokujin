@@ -1,0 +1,123 @@
+*{margin: 0;
+padding: 0;
+text-decoration: none;
+list-style-type: none;
+
+}
+
+a:link{color: #404243;}
+a:visited{color: #404243;}
+a:hover{color: #00ccff;}
+a:active{color: #404243;}
+
+nav{
+    width: 640px;
+    height: 60px;
+    display: flex;
+    position:absolute;
+    left: 1186px;
+    
+    
+}
+nav ul{
+    width: 640px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+nav ul li{
+    font-family:'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing:  -0.4px;
+    margin-top: 26px;
+    display: block;
+}
+.tit{
+    width: 100%;
+    height: 1340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box{
+    width: 1920px;
+    height: 2327px;
+    
+}
+
+.logo{
+    width: 338px;
+    height: 25px;
+    display: flex;
+    position: absolute;
+    left: 28px;
+    top: 28px;
+    
+    
+}
+
+
+.motto{
+    width: 617px;
+    height: 66px;
+    display: flex;
+    position: absolute;
+    top: 971px;
+    left: 80px;
+    
+}
+.name{
+    width: 100%;
+    height: 273.69px;
+    display: flex;
+    position: absolute;
+    top: 1071px;
+    left: 68.5px;
+    
+}
+.bt0{
+    width: 100%;
+    height: 582px;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+span{
+    margin-left: 109px;
+}
+    
+  
+
+
+
+
+.logo{
+      
+    display: flex;
+    position: absolute;
+    left: 28px;
+    top: 28px;
+    z-index: 2; 
+    
+}
+
+    main {
+        display: block;
+        width: 302px; /* 이미지의 원래 너비 */
+        height: 25px;
+      }
+  
+      main img {
+        width: 100%; /* 이미지가 span의 100%를 차지하도록 크기 조절 */
+        height: auto; /* 이미지의 높이 자동 조정 */
+       
+        
+      }
+
+

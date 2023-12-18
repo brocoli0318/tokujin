@@ -1,0 +1,285 @@
+*{margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    
+    }
+    
+    a:link{color: #404243;}
+    a:visited{color: #404243;}
+    a:hover{color: #00ccff;}
+    a:active{color: #404243;}
+
+    nav{
+        width: 640px;
+        height: 60px;
+        display: flex;
+        position:absolute;
+        left: 1186px;
+        
+        
+    }
+    nav ul{
+        width: 640px;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        
+        
+    }
+    nav ul li{
+        font-family:'Noto Sans KR', sans-serif;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 20px;
+        letter-spacing:  -0.4px;
+        margin-top: 26px;
+        
+    }
+
+    .logo{
+      
+        display: flex;
+        position: absolute;
+        left: 28px;
+        top: 28px;
+       
+    }
+
+        span {
+            display: block;
+            width: 302px; /* 이미지의 원래 너비 */
+            height: 25px;
+          }
+      
+          span img {
+            width: 100%; /* 이미지가 span의 100%를 차지하도록 크기 조절 */
+            height: auto; /* 이미지의 높이 자동 조정 */
+           
+            
+          }
+
+   
+
+    .top{
+        width: 1920px;
+        height: 80px;
+        background-color: white;
+       top: 0;
+       
+    }
+
+    .back{
+        height: 3348px;
+        
+    }
+    .tit{
+        width: 298px;
+        height: 87px;
+        top: 180px;
+        position: absolute;
+        text-align: center;
+        color: #434343;
+        left: 50%;
+        transform: translate(-50%, -50%);
+            
+        font-family:'Noto Sans KR', sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 60px;
+        letter-spacing:  -0.4px;
+      
+     }
+    
+     .box{
+     width: 1920px;
+     height: 3348px;
+    
+            
+                
+     }
+
+
+
+.text{
+    height: 80px;
+    font-family:'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    letter-spacing:  -0.4px;
+    
+}
+
+.collabo01{
+    top: 500px;
+    right:190px;
+    width:1730px;
+    height: 640px;
+   
+    position: absolute;
+    
+ }
+.name01{
+    margin-left: 1385px;
+
+ }
+
+
+
+.img01{
+    background-image: url(tokujin_image/img_sub04_03.png);
+    display: flex;
+    width: 442px;
+    height: 442px;
+    position: absolute;
+    margin-left: 150px;
+
+}
+.img02{
+    background-image: url(tokujin_image/img_sub04_02.png);
+    display: flex;
+    width: 442px;
+    height: 442px;
+    position: absolute;
+    margin-left: 670px;
+    
+}
+.img03{
+    background-image: url(tokujin_image/img_sub04_01.png);
+    display: flex;
+    width: 442px;
+    height: 442px;
+    position: absolute;
+    margin-left: 1190px;
+}
+
+
+
+.collabo02{
+    top: 1150px;
+    left: 709px;
+    width:1211px;
+    height: 640px;
+
+    position: absolute;
+
+}
+.name02{
+    margin-left: 95px;
+}
+
+
+.img04{
+    background-image: url(tokujin_image/img_sub04_02_01.png);
+    display: flex;
+    width: 442px;
+    height: 442px;
+    position: absolute;
+    margin-left: 100px;
+}
+.img05{
+    background-image: url(tokujin_image/img_sub04_02_02.png);
+    
+    display: flex;
+    width: 442px;
+    height: 442px;
+    position: absolute;
+    margin-left: 620px;
+}
+
+
+
+.collabo03{
+    top: 1806px;
+    right:190px;
+    width:1730px;
+    height: 640px;
+
+    position: absolute;
+
+}
+.name03{
+    margin-left: 1142px;
+    top: 910px;
+    left: 790.04px;
+}
+
+
+.img06{
+    background-image: url(tokujin_image/img_sub04_03_03.png);
+    display: flex;
+    width: 442px;
+    height: 442px;
+    position: absolute;
+    margin-left: 150px;
+}
+.img07{
+    background-image: url(tokujin_image/img_sub04_03_02.png);
+    display: flex;
+    width: 442px;
+    height: 442px;
+    position: absolute;
+    margin-left: 670px;
+}
+.img08{
+    background-image: url(tokujin_image/img_sub04_03_01.png);
+    display: flex;
+    width: 442px;
+    height: 442px;
+    position: absolute;
+    margin-left: 1190px;
+}
+
+
+
+.collabo04{
+    top: 2456px;
+    left: 190px;
+    width:1730px;
+    height: 640px;
+    
+    position: absolute;
+
+}
+.name04{
+    margin-left: 95px;
+}
+
+
+
+.img09{
+    background-image: url(tokujin_image/img_sub04_04_01.png);
+    display: flex;
+    width: 442px;
+    height: 442px;
+    position: absolute;
+    margin-left: 100px;
+}
+.img10{
+    background-image: url(tokujin_image/img_sub04_04_02.png);
+    display: flex;
+    width: 442px;
+    height: 442px;
+    position: absolute;
+    margin-left: 620px;
+}
+.img11{
+    background-image: url(tokujin_image/img_sub04_04_03.png);
+    display: flex;
+    width: 442px;
+    height: 442px;
+    position: absolute;
+    margin-left: 1140px;
+}
+    
+
+.footer{
+    width: 1100px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    
+}
